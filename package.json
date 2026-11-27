@@ -1,0 +1,1 @@
+{"name":"security-server","version":"1.1.0","private":true,"type":"module","engines":{"node":">=22.12.0"},"scripts":{"start":"node --env-file-if-exists=.env maten.js","test":"node --test","check":"node --check maten.js && node --check src/policy.js && node --check src/config.js && node --check src/audit.js"},"dependencies":{"discord.js":"14.22.1"}}
